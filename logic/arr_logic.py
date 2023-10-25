@@ -13,3 +13,7 @@ class Logic:
         for a in range(7):
             arr.append(random.randint(0, 23))
         print(arr)
+
+
+def hello_world(name):
+    print(f'hola {name}')
